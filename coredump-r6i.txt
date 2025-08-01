@@ -1,0 +1,703 @@
+6514
+           PID: 6514 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6514.1752694156000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 6514 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6514:
+                #0  0x00007f8678a5f5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007f8678a601fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007f8678a67bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007f8678a6a36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007f8676f56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007f86779cc6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007f8676a45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007f8678a5f5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007f8678a601fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007f8678a67bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007f8678a6a36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007f8676ef91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007f8676f2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007f8676f2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007f8676f28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007f8676f55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007f867831a09b n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6509
+           PID: 6509 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6509.1752694156000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 6509 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6509:
+                #0  0x000074e46c5a85e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000074e46c5a91fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000074e46c5b0bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000074e46c5b336e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000074e46a956d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000074e46b5156c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000074e46a445330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000074e46c5a85e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000074e46c5a91fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000074e46c5b0bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000074e46c5b336e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000074e46a8f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000074e46a92ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000074e46a92b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000074e46a928c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x000074e46a955f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x000074e46be6309b n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6513
+           PID: 6513 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6513.1752694156000000.zst (present)
+  Size on Disk: 5.1M
+       Message: Process 6513 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6513:
+                #0  0x000077af6b91e5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000077af6b91f1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000077af6b926bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000077af6b92936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000077af69d56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000077af6a88b6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000077af69845330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000077af6b91e5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000077af6b91f1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000077af6b926bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000077af6b92936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000077af69cf91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000077af69d2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000077af69d2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000077af69d28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x000077af69d55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x000077af6a893827 _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0>
+                #17 0x000077af6b1ded34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6466
+           PID: 6466 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6466.1752694156000000.zst (present)
+  Size on Disk: 6.1M
+       Message: Process 6466 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6466:
+                #0  0x000078eea84d15e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000078eea84d21fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000078eea84d9bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000078eea84dc36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000078eea6956d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000078eea743e6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000078eea6445330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000078eea84d15e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000078eea84d21fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000078eea84d9bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000078eea84dc36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000078eea68f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000078eea692ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000078eea692b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000078eea692af07 _ZNSt13basic_filebufIcSt11char_traitsIcEE19_M_terminate_outputEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12af07)
+                #15 0x000078eea692e331 _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12e331)
+                #16 0x000078eea714b834 _ZNSt14basic_ofstreamIcSt11char_traitsIcEE5closeEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-optimized.>
+                #17 0x000078eea73c3475 _ZN3ns317SimpleStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac475)
+                #18 0x000078eea7d91d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6465
+           PID: 6465 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6465.1752694156000000.zst (present)
+  Size on Disk: 5.6M
+       Message: Process 6465 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6465:
+                #0  0x000072b6e2ca95e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000072b6e2caa1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000072b6e2cb1bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000072b6e2cb436e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000072b6e1156d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000072b6e1c166c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000072b6e0c45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000072b6e2ca95e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000072b6e2caa1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000072b6e2cb1bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000072b6e2cb436e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000072b6e10f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000072b6e112ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000072b6e112b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000072b6e1128c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x000072b6e1155f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x000072b6e18e6d6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x000072b6e1e0d3d9 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6475
+           PID: 6475 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6475.1752694156000000.zst (present)
+  Size on Disk: 5.2M
+       Message: Process 6475 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6475:
+                #0  0x0000772d817b25e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x0000772d817b31fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x0000772d817babfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x0000772d817bd36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x0000772d7fb56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x0000772d8071f6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x0000772d7f645330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x0000772d817b25e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x0000772d817b31fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x0000772d817babfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x0000772d817bd36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x0000772d7faf91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x0000772d7fb2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x0000772d7fb2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x0000772d7fb2af07 _ZNSt13basic_filebufIcSt11char_traitsIcEE19_M_terminate_outputEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12af07)
+                #15 0x0000772d7fb2e331 _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12e331)
+                #16 0x0000772d8042c834 _ZNSt14basic_ofstreamIcSt11char_traitsIcEE5closeEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-optimized.>
+                #17 0x0000772d806a4475 _ZN3ns317SimpleStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac475)
+                #18 0x0000772d81072d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6471
+           PID: 6471 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6471.1752694156000000.zst (present)
+  Size on Disk: 5.6M
+       Message: Process 6471 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6471:
+                #0  0x00007747d4da65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007747d4da71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007747d4daebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007747d4db136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007747d3156d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007747d3d136c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007747d2c45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007747d4da65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007747d4da71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007747d4daebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007747d4db136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007747d30f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007747d312ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007747d312b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007747d3128c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007747d3155f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007747d39e3d6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x00007747d3f0a3d9 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6464
+           PID: 6464 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6464.1752694156000000.zst (present)
+  Size on Disk: 5.6M
+       Message: Process 6464 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6464:
+                #0  0x000075cdf6b205e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000075cdf6b211fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000075cdf6b28bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000075cdf6b2b36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000075cdf4f56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000075cdf5a8d6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000075cdf4a45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000075cdf6b205e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000075cdf6b211fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000075cdf6b28bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000075cdf6b2b36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000075cdf4ef91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000075cdf4f2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000075cdf4f2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000075cdf4f2af07 _ZNSt13basic_filebufIcSt11char_traitsIcEE19_M_terminate_outputEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12af07)
+                #15 0x000075cdf4f2e331 _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12e331)
+                #16 0x000075cdf579a834 _ZNSt14basic_ofstreamIcSt11char_traitsIcEE5closeEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-optimized.>
+                #17 0x000075cdf5a12475 _ZN3ns317SimpleStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac475)
+                #18 0x000075cdf63e0d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6495
+           PID: 6495 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6495.1752694156000000.zst (present)
+  Size on Disk: 4.9M
+       Message: Process 6495 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6495:
+                #0  0x00007f9cfa7e85e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007f9cfa7e91fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007f9cfa7f0bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007f9cfa7f336e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007f9cf8b56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007f9cf97556c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007f9cf8645330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007f9cfa7e85e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007f9cfa7e91fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007f9cfa7f0bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007f9cfa7f336e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007f9cf8af91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007f9cf8b2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007f9cf8b2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007f9cf8b28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007f9cf8b55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007f9cf94604e8 _ZN3ns33tcb15GlobalSimReport8DoReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-optimized.so + 0xc74e>
+                #17 0x00007f9cf96da475 _ZN3ns317SimpleStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac475)
+                #18 0x00007f9cfa0a8d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6492
+           PID: 6492 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6492.1752694156000000.zst (present)
+  Size on Disk: 5.1M
+       Message: Process 6492 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6492:
+                #0  0x000072c6b06e05e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000072c6b06e11fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000072c6b06e8bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000072c6b06eb36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000072c6aeb56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000072c6af64d6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000072c6ae645330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000072c6b06e05e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000072c6b06e11fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000072c6b06e8bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000072c6b06eb36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000072c6aeaf91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000072c6aeb2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000072c6aeb2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000072c6aeb28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x000072c6aeb55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x000072c6af31dd6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x000072c6af361059 _ZN3ns311scala_tcbfw30ScalaRoceTransportStatsHandler10ReportDataEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-han>
+                #18 0x000072c6affa0d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6460
+           PID: 6460 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6460.1752694156000000.zst (present)
+  Size on Disk: 7.1M
+       Message: Process 6460 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6460:
+                #0  0x00007b8f8fa165e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007b8f8fa171fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007b8f8fa1ebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007b8f8fa2136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007b8f8dd56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007b8f8e9836c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007b8f8d845330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007b8f8fa165e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007b8f8fa171fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007b8f8fa1ebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007b8f8fa2136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007b8f8dcf91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007b8f8dd2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007b8f8dd2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007b8f8dd28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007b8f8dd55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007b8f8e653d6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x00007b8f8e697059 _ZN3ns311scala_tcbfw30ScalaRoceTransportStatsHandler10ReportDataEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-han>
+                #18 0x00007b8f8f2d6d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6519
+           PID: 6519 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6519.1752694156000000.zst (present)
+  Size on Disk: 4.9M
+       Message: Process 6519 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6519:
+                #0  0x0000798a45cb65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x0000798a45cb71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x0000798a45cbebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x0000798a45cc136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x0000798a44156d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x0000798a44c236c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x0000798a43c45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x0000798a45cb65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x0000798a45cb71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x0000798a45cbebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x0000798a45cc136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x0000798a440f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x0000798a4412ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x0000798a4412b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x0000798a44128c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x0000798a44155f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x0000798a448f3d6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x0000798a449175d4 _ZN3ns33tcb7NdStats19AddIntervalToReportER13ScalaStatFile (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-opt>
+                #18 0x0000798a44ba86e2 _ZN3ns316ScalaStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac6e2)
+                #19 0x0000798a45576d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6463
+           PID: 6463 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6463.1752694156000000.zst (present)
+  Size on Disk: 7.7M
+       Message: Process 6463 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6463:
+                #0  0x00007c18139b65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007c18139b71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007c18139bebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007c18139c136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007c1811d56d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007c18129236c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007c1811845330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007c18139b65e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007c18139b71fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007c18139bebfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007c18139c136e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007c1811cf91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007c1811d2ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007c1811d2b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007c1811d28c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007c1811d55f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007c18125f3d6f _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handling-o>
+                #17 0x00007c1812620b37 _ZN3ns33tcb11EcnPfcStats19AddIntervalToReportER13ScalaStatFile (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-traced-callback-handlin>
+                #18 0x00007c18128a86e2 _ZN3ns316ScalaStatHandler6ReportEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0xac6e2)
+                #19 0x00007c1813276d34 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+6502
+           PID: 6502 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6502.1752694156000000.zst (present)
+  Size on Disk: 5.0M
+       Message: Process 6502 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6822:
+                #0  0x00007aee14dce5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007aee14dcf1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007aee14dd6bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007aee14dd936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007aee13156d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007aee13d3b6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007aee12c45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007aee14dce5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007aee14dcf1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007aee14dd6bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007aee14dd936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007aee130f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007aee1312ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007aee1312b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007aee13128c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007aee13155f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007aee13d3a7ae _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0>
+                #17 0x00007aee13d3ece2 _ZNK3ns38CallbackIvNS_5emptyES1_S1_S1_S1_S1_S1_S1_S1_EclEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x>
+                #18 0x00007aee137fe152 n/a (n/a + 0x0)
+                #19 0x00007aee12d29c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6586:
+                #0  0x00007aee12d1b4cd __GI___poll (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x11b4cd)
+                #1  0x00007aee12bf075d n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x2575d)
+                #2  0x00007aee12bebda8 event_base_loop (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x20da8)
+                #3  0x00007aee12ebe6e6 n/a (/opt/amazon/openmpi/lib/libopen-pal.so.40.30.4 + 0x386e6)
+                #4  0x00007aee12c9caa4 start_thread (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x9caa4)
+                #5  0x00007aee12d29c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6646:
+                #0  0x00007aee12d2a042 epoll_wait (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x12a042)
+                #1  0x00007aee12bf0f15 n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x25f15)
+6474
+           PID: 6474 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6474.1752694156000000.zst (present)
+  Size on Disk: 5.1M
+       Message: Process 6474 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6798:
+                #0  0x000079ff4d33e5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x000079ff4d33f1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x000079ff4d346bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x000079ff4d34936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x000079ff4b756d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x000079ff4c2ab6c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x000079ff4b245330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x000079ff4d33e5e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x000079ff4d33f1fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x000079ff4d346bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x000079ff4d34936e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x000079ff4b6f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x000079ff4b72ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x000079ff4b72b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x000079ff4b728c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x000079ff4b755f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x000079ff4c2aa7ae _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0>
+                #17 0x000079ff4c2aece2 _ZNK3ns38CallbackIvNS_5emptyES1_S1_S1_S1_S1_S1_S1_S1_EclEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x>
+                #18 0x000079ff4bd6e152 n/a (n/a + 0x0)
+                #19 0x000079ff4b329c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6585:
+                #0  0x000079ff4b31b4cd __GI___poll (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x11b4cd)
+                #1  0x000079ff4b45575d n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x2575d)
+                #2  0x000079ff4b450da8 event_base_loop (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x20da8)
+                #3  0x000079ff4b17c6e6 n/a (/opt/amazon/openmpi/lib/libopen-pal.so.40.30.4 + 0x386e6)
+                #4  0x000079ff4b29caa4 start_thread (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x9caa4)
+                #5  0x000079ff4b329c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6650:
+                #0  0x000079ff4b32a042 epoll_wait (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x12a042)
+                #1  0x000079ff4b455f15 n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x25f15)
+6503
+           PID: 6503 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 19:29:16 UTC (54min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r6i-coredump-07-16-2025/01fed21a-a824-42ae-af00-f3ead17eb3cd-final.json>
+    Executable: /lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: b3343fb135ee47c88607c3ef9e2fe6bb
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-221
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.b3343fb135ee47c88607c3ef9e2fe6bb.6503.1752694156000000.zst (present)
+  Size on Disk: 4.9M
+       Message: Process 6503 (generic-workloa) of user 1000 dumped core.
+
+                Module /usr/lib/x86_64-linux-gnu/libudev.so.1.7.8 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 6813:
+                #0  0x00007989cac815e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #1  0x00007989cac821fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #2  0x00007989cac89bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #3  0x00007989cac8c36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #4  0x00007989c9156d51 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x156d51)
+                #5  0x00007989c9be86c5 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x127>
+                #6  0x00007989c8c45330 __restore_rt (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x45330)
+                #7  0x00007989cac815e6 do_lookup_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xa5e6)
+                #8  0x00007989cac821fc _dl_lookup_symbol_x (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0xb1fc)
+                #9  0x00007989cac89bfc _dl_fixup (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x12bfc)
+                #10 0x00007989cac8c36e _dl_runtime_resolve_xsavec (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 + 0x1536e)
+                #11 0x00007989c90f91c5 _ZNSt12__basic_fileIcE6xsputnEPKcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0xf91c5)
+                #12 0x00007989c912ad5d _ZNSt13basic_filebufIcSt11char_traitsIcEE22_M_convert_to_externalEPcl (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12ad5d)
+                #13 0x00007989c912b218 _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x12b218)
+                #14 0x00007989c9128c6d _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x128c6d)
+                #15 0x00007989c9155f5b _ZNSo5flushEv (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 + 0x155f5b)
+                #16 0x00007989c9be77ae _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0>
+                #17 0x00007989c9bebce2 _ZNK3ns38CallbackIvNS_5emptyES1_S1_S1_S1_S1_S1_S1_S1_EclEv (/lustre/chakra-01fed21a-a824-42ae-af00-f3ead17eb3cd/optimized/libns3.30.1-scala-sdk-types-optimized.so + 0x>
+                #18 0x00007989c96ab152 n/a (n/a + 0x0)
+                #19 0x00007989c8d29c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6622:
+                #0  0x00007989c8d2a042 epoll_wait (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x12a042)
+                #1  0x00007989c8e54f15 n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x25f15)
+                #2  0x00007989c8e4fda8 event_base_loop (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x20da8)
+                #3  0x00007989c617ca36 n/a (/opt/amazon/openmpi/lib/openmpi/mca_pmix_pmix3x.so + 0x9ca36)
+                #4  0x00007989c8c9caa4 start_thread (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x9caa4)
+                #5  0x00007989c8d29c3c __clone3 (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x129c3c)
+
+                Stack trace of thread 6558:
+                #0  0x00007989c8d1b4cd __GI___poll (/usr/lib/x86_64-linux-gnu/libc.so.6 + 0x11b4cd)
+                #1  0x00007989c8e5475d n/a (/usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 + 0x2575d)

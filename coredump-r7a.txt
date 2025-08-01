@@ -1,0 +1,399 @@
+9053
+           PID: 9053 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9053.1752696758000000.zst (present)
+  Size on Disk: 7.3M
+       Message: Process 9053 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9053:
+                #0  0x0000732969059680 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9059
+           PID: 9059 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9059.1752696758000000.zst (present)
+  Size on Disk: 5.8M
+       Message: Process 9059 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9403:
+                #0  0x0000725d99f0e680 n/a (n/a + 0x0)
+                #1  0x0000725d99f11ce2 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9091
+           PID: 9091 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9091.1752696758000000.zst (present)
+  Size on Disk: 4.9M
+       Message: Process 9091 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9416:
+                #0  0x000071eadb8c0680 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9073
+           PID: 9073 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9073.1752696758000000.zst (present)
+  Size on Disk: 4.7M
+       Message: Process 9073 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9427:
+                #0  0x0000749bc9db1680 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9065
+           PID: 9065 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9065.1752696758000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 9065 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9376:
+                #0  0x0000701602b11680 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9089
+           PID: 9089 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9089.1752696758000000.zst (present)
+  Size on Disk: 5.0M
+       Message: Process 9089 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9404:
+                #0  0x000076445d7db680 n/a (n/a + 0x0)
+                #1  0x000076445d7dece2 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9067
+           PID: 9067 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9067.1752696758000000.zst (present)
+  Size on Disk: 5.1M
+       Message: Process 9067 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9377:
+                #0  0x000071a00d283680 n/a (n/a + 0x0)
+                #1  0x000071a00d286ce2 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9096
+           PID: 9096 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9096.1752696758000000.zst (present)
+  Size on Disk: 5.1M
+       Message: Process 9096 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9096:
+                #0  0x0000795ae5c29680 n/a (n/a + 0x0)
+                #1  0xffffffffffffff60 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9048
+           PID: 9048 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9048.1752696758000000.zst (present)
+  Size on Disk: 7.7M
+       Message: Process 9048 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9048:
+                #0  0x000076423df03680 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9088
+           PID: 9088 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9088.1752696758000000.zst (present)
+  Size on Disk: 5.0M
+       Message: Process 9088 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9088:
+                #0  0x000076f74fba4680 n/a (n/a + 0x0)
+                #1  0x000076f74f96efee n/a (n/a + 0x0)
+                #2  0x000076f74f072cc8 _ZTVSt13basic_filebufIcSt11char_traitsIcEE (libstdc++.so.6 + 0x272cc8)
+                ELF object binary architecture: AMD x86-64
+9102
+           PID: 9102 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9102.1752696758000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 9102 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9102:
+                #0  0x00007671b966b680 n/a (n/a + 0x0)
+                #1  0x00007671b9435fee n/a (n/a + 0x0)
+                #2  0x00007671b8c72cc8 _ZTVSt13basic_filebufIcSt11char_traitsIcEE (libstdc++.so.6 + 0x272cc8)
+                ELF object binary architecture: AMD x86-64
+9069
+           PID: 9069 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9069.1752696758000000.zst (present)
+  Size on Disk: 5.0M
+       Message: Process 9069 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9069:
+                #0  0x0000740c37685680 n/a (n/a + 0x0)
+                #1  0x0000740c37fd8d34 _ZN3ns35scala3mpi24DistributedSimulatorImpl15ProcessOneEventEv (/lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/libns3.30.1-scala-mpi-optimized.so + 0x33>
+                #2  0x792e943cac4f4700 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9090
+           PID: 9090 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9090.1752696758000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 9090 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9090:
+                #0  0x000070a9ab473680 n/a (n/a + 0x0)
+                #1  0x000070a9abdc6d34 _ZN3ns35scala3mpi24DistributedSimulatorImpl15ProcessOneEventEv (/lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/libns3.30.1-scala-mpi-optimized.so + 0x33>
+                #2  0xbeda01011c028600 n/a (n/a + 0x0)
+                ELF object binary architecture: AMD x86-64
+9085
+           PID: 9085 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 4min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9085.1752696758000000.zst (present)
+  Size on Disk: 4.9M
+       Message: Process 9085 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9085:
+                #0  0x0000781241159680 n/a (n/a + 0x0)
+                #1  0x0000781240c498e0 n/a (/lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/libns3.30.1-core-optimized.so + 0xf98e0)
+                ELF object binary architecture: AMD x86-64
+9058
+           PID: 9058 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 5min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9058.1752696758000000.zst (present)
+  Size on Disk: 5.6M
+       Message: Process 9058 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9058:
+                #0  0x000071de274aa680 n/a (n/a + 0x0)
+                #1  0x000071de26f9a8e0 n/a (/lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/libns3.30.1-core-optimized.so + 0xf98e0)
+                ELF object binary architecture: AMD x86-64
+9110
+           PID: 9110 (generic-workloa)
+           UID: 1000 (ubuntu)
+           GID: 1000 (ubuntu)
+        Signal: 7 (BUS)
+     Timestamp: Wed 2025-07-16 20:12:38 UTC (1h 5min ago)
+  Command Line: ./optimized/generic-workload --topologyFile=/global/workspace/logs/chakra-all2all-128ranks-aws_5th_try-switch-stats-on-r7a-coredump-07-16-2025/d17bedd8-9db7-4501-b647-811aadac1e0b-final.json>
+    Executable: /lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/generic-workload
+ Control Group: /system.slice/scala0_slurmstepd.scope/system
+          Unit: scala0_slurmstepd.scope
+         Slice: system.slice
+       Boot ID: 800e60e58b3e4e73b2c1d4a4281f717a
+    Machine ID: ec2fcea4ca0aba9943a2302da24acf15
+      Hostname: ip-172-0-2-253
+       Storage: /var/lib/systemd/coredump/core.generic-workloa.1000.800e60e58b3e4e73b2c1d4a4281f717a.9110.1752696758000000.zst (present)
+  Size on Disk: 4.8M
+       Message: Process 9110 (generic-workloa) of user 1000 dumped core.
+
+                Module libudev.so.1 from deb systemd-255.4-1ubuntu8.10.amd64
+                Module libgcc_s.so.1 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Module libstdc++.so.6 from deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+                Stack trace of thread 9110:
+                #0  0x000076c86e4fb680 n/a (n/a + 0x0)
+                #1  0x000076c86dfeb8e0 n/a (/lustre/chakra-d17bedd8-9db7-4501-b647-811aadac1e0b/optimized/libns3.30.1-core-optimized.so + 0xf98e0)
+                ELF object binary architecture: AMD x86-64
